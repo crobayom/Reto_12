@@ -9,13 +9,15 @@
   comentado dentro de su propio archivo
 
 ## 3. Dado el JSON:
+
+# lo edite porque algunos caracteres no los leia
 {
 	"jadiazcoronado":{
 		"nombres": "Juan Antonio",
-		"apellidos": "D��az Coronado",
+		"apellidos": "Diaz Coronado",
 		"edad":19,
 		"colombiano":true,
-		"deportes":["F�utbol","Ajedrez","Gimnasia"]
+		"deportes":["Futbol","Ajedrez","Gimnasia"]
 	},
 	"dmlunasol":{
 		"nombres": "Dorotea Maritza",
@@ -29,6 +31,7 @@ Cree un programa que lea de un archivo con dicho JSON y:
 
 Imprima los nombres completos (nombre y apellidos) de las personas que practican el deporte ingresado por el usuario.
 Imprima los nombres completos (nombre y apellidos) de las personas que est�en en un rango de edades dado por el usuario.
+
 ## 4. El siguiente código contiene un JSON con el pronostivo detallado del clima para 8 días:
 import json
 
@@ -39,4 +42,10 @@ jsonString = '''
 data = json.loads(jsonString)
 Revise los campos: 'alertAlertas', 'alertPrecip', 'alertTmpMax', 'alertTmpMin', 'alertVelViento'. Para cada uno identifique si se presentan alertas ({0: x} indica que el día 0 habra un fenomeno de la alerta en cuestión, {1:"-"} indica que no habrá ningun fenomeno climatico). En caso que se presente una alerta obtenga la fecha del campo 'dt' (aquí pueden revisar como se convierte de UTC a fecha), así como los parametros relevantes del evento (e.g. si es un fenomeno de lluvias, busqye el nivel de lluvia, si es vientos, la velocidad del viuento). Al final deberá imprimir las fechas de alerta, el tipo de alerta y las variables asociadas.
 
+
+
+Comentado dentro de su propio archivo
+
 ## 5. A través de un programa conectese a al menos 3 API's , obtenga el JSON, imprimalo y extraiga los pares de llave : valor.
+
+COmentado dentro de su propi archivo
